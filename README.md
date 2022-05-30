@@ -20,37 +20,38 @@
 
 Refactored a fully functioning Google Books API search engine built with a RESTful API, to be a GraphQL API built with Apollo Server. The app was built using the MERN stack, with a React front end, MongoDB database, and Node.js/Express.js server and API. It's set up to allow users to save book searches to the back end.
 
-### Programming Languages, Technologies/Frameworks
+## Programming Languages, Technologies/Frameworks
 
 - HTML
 - CSS
-- Javascript ES6
-- Node.js
+- Javascript
+- MongoDB
 - Express.js
-- Sequelize ORM
+- React
+- Node.js
 - Heroku
-- Bulma
 
 ## Installation
 
-- Create a username and password on the signup page, or login if you already have a username and password.
-- In the search parties tab, filter your search by public/private parties, over 21, and theme.
-- Create a party from the tab on the dashboard as well as view what parties you have created in My Parties.
+- Create a MongDB Atlas account
+- clone/fork the repo
+- run `npm i`
+- run npm start
 
 ## Contribution
 
 true
 
-### Snapshots
+### Screenshots
 
-![Screenshot](./public/images/homesnapshot.png)
+![Screenshot](./bk1-screenshot.png)
 
-![Screenshot](./public/images/dashboardsnapshot.png)
+![Screenshot](./bk2-screenshot.png)
 
 ### URL of the deployed application (Heroku):
 
-<https://ouiii-party.herokuapp.com/>
+<https://bk-search-engine-mern.herokuapp.com/>
 
 ### URL of the GitHub repository:
 
-<https://github.com/adorsey5/OUiii-1>
+<https://github.com/adorsey5/book-search-engine>
